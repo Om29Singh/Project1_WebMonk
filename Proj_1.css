@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    border: 0px;
+
+
+}
+
+.page {
+    display: flex;
+
+
+}
+
+.leftsec {
+    display: flex;
+    flex-direction: column;
+    background-color: #0170fe;
+    height: 120vh;
+    width: 30vw;
+    max-width: 30vw;
+
+
+
+
+}
+
+.brand {
+    margin: 25px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+
+}
+
+.content {
+    color: white;
+    margin-left: 25px;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+
+}
+
+.rightsec {
+    margin-top: 20vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(45, 45, 99);
+
+}
+
+.div1 {
+    margin-bottom: 25px;
+    font-size: 27px;
+    font-weight: bolder;
+
+}
+
+.div2 {
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.div3 {
+    font-weight: lighter;
+    font-size: small;
+}
+
+.form {
+    position: relative;
+    margin-top: 40px;
+
+}
+
+.div5 {
+    position: absolute;
+
+    left: 341px;
+    top: -2px;
+}
+
+.div6 {
+    position: absolute;
+    left: 342px;
+    top: 53px;
+}
+
+.div9 {
+    position: absolute;
+    left: 342px;
+    top: 105px;
+}
+
+.div7 {
+    position: absolute;
+    left: 0px;
+    top: 52px;
+}
+
+.div8 {
+    position: absolute;
+    left: 0px;
+    top: 106px;
+}
+
+.check1 {
+    position: relative;
+    top: 125px;
+    font-size: smaller;
+}
+
+.check2 {
+    position: relative;
+    top: 145px;
+    font-size: smaller;
+
+}
+
+.button {
+    margin-top: 30px;
+    color: white;
+    background-color: #0170fe;
+    height: 41px;
+    width: 250px;
+    position: relative;
+    top: 160px;
+    border-radius: 5px;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    display: inline-block;
+    padding-left: 62px;
+    padding-top: 9px;
+}
+
+.login {
+    position: relative;
+    top: 190px;
+    font-size: smaller;
+}
+
+input[type=text] {
+
+    padding: 4px 8px;
+    margin: 0px 0;
+    width: 220px;
+
+    border: 1px solid rgb(173, 172, 172);
+    border-radius: 3px;
+
+    box-sizing: border-box;
+}
+
+
+
+input[type=password] {
+
+    padding: 4px 8px;
+    margin: 0px 0;
+    width: 220px;
+    border: 1px solid rgb(173, 172, 172);
+    border-radius: 3px;
+
+    box-sizing: border-box;
+}
